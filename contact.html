@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Patrick Deegan / Portfolio</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="page-header">
+        <img src="img/Resize image project.png" alt="logo" class="page-header__item">
+
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+                <li role="presentation">
+                    <a href="Work.html" role="menuitem" class="navigation-list__item">Work</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <section class="about-work-contact-center-section">
+    <div>
+        <img src="https://placehold.co/600x400?text=Hello+World" alt="text/plain" />
+    </div>
+</section>
+<section class="about-work-contact-center-section">
+    <h1>Contact</h1>
+</section>
+<section class="about-work-contact-center-section">
+    <div>
+        <h2>CareerFoundry GmbH</h2>
+        <p>c/o Factory Görlitzer Park</p>
+        <p>Lohmühlenstraße 65</p>
+        <p>12435 Berlin</p>
+        <p>Deutschland</p>
+        <br>
+        <a href="tel:+49 30 4849 2016">Tel: +49 30 4849 2016</a>
+        <br>
+        Skype <a href="skype:hello.careerfoundry"> hello.careerfoundry</a>
+        <br>
+        <a href="mailto:office@careerfoundry.com">Email: office@careerfoundry.com</a>
+        <br>
+        <a href="mailto:office@careerfoundry.com">contact me</a>
+        <br>
+    </div>
+</section>
+    <section class="about-work-contact-center-section">
+    <br>
+    <div>
+        <img src="https://placehold.co/150x150" alt="">
+        <img src="https://placehold.co/150x150" alt="">
+        <img src="https://placehold.co/150x150" alt="">
+
+    </div>
+</section>
+    <section class="about-work-contact-center-section">
+    <form action="" method="post">
+        <label class="standard-label" style="display: block; margin-bottom: 10px;" for="contact-email">Email: </label>
+        <input type="email" id="contact-email">
+        <br>
+        <label class="standard-label" style="display: block; margin-bottom: 10px;" for="contact-tel">Telephone: </label>
+        <input type="tel" id="contact-tel" placeholder="(### ### ####)" pattern="\d{3}[\ ]\d{3}[\ ]\d{4}" required>
+        <br>
+        <label class="standard-label" style="display: block; margin-bottom: 10px;" for="send-message">Message: </label>
+        <textarea maxlength="250" required="required" id="send-message"></textarea>
+        <input type="submit" value="Send message">
+    </form>
+    </section>
+    <br>
+    <section class="about-work-contact-center-section">
+    <form action="/submit" method="POST">
+        <label class="standard-label" for="password" style="display: block; margin-bottom: 10px;">Password:</label>
+        <input type="password" name="password" placeholder="Enter your password" required id="password"
+            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
+            title="Password must be at least 8 characters long, include at least one uppercase letter, one lowercase letter, one number, and one special character.">
+        <button type="submit">Submit</button>
+    </form>
+</section>
+    <br>
+    <section class="about-work-contact-center-section">
+    <div>
+        <p>Connect here</p>
+        <img src="https://placehold.co/30x30" alt="Gihub">
+        <img src="https://placehold.co/30x30" alt="linkedIn">
+        <img src="https://placehold.co/30x30" alt="twitter">
+    </div>
+</section>
+
+    <footer class="page-footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <!-- Github logo -->
+            <img src="img/github_icon.svg" alt="github">
+            <!-- Twitter logo -->
+            <img src="img/twitter_icon.svg" alt="twitter">
+            <!-- LinkedIn logo -->
+            <img src="img/linkedin_icon.svg" alt="linkedin">
+        </div>
+        <br>
+        <a href="#">Back to top</a>
+    </footer>
+    
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>
