@@ -150,6 +150,19 @@ button:focus {
   text-align: center;
 }
 
+.imgDiv {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding: 10px;
+}
+.imgBremen {
+  width: 320px;
+height: 320px;
+max-width: 100%;
+}
+
 table {
   margin: 0 auto;
 }
